@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace PresentConnection.MemoNerd.Domain
 {
-    public class ClassFile
+    public class Word
     {
+        string word;
+        string language; //ISO codes
     }
+
 }
