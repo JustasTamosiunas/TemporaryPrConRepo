@@ -37,4 +37,9 @@ namespace PresentConnection.MemoNerd.Domain
         int size;
         List<Card> cards; //current cards
     }
+    public class UserGroup 
+    {
+        string groupName;
+        List<User> userList;
+    }
 }
