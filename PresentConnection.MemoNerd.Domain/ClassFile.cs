@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace PresentConnection.MemoNerd.Domain
 {
+    enum CardListType { Language, History, Picture, Formulas }; //TODO: Add more types if required
+
     public class Card
     {
         Word frontSide, backSide;
@@ -17,10 +19,16 @@ namespace PresentConnection.MemoNerd.Domain
         string language; //ISO codes
     }
 
-    public class CardList 
+    public class CardList
     {
         List<string> Category;
         List<Card> Cards;
-        
+    }
+
+    public class User
+    {
+        string username;
+        string password; //hashed password
+        List<CardList> cardLists;
     }
 }
