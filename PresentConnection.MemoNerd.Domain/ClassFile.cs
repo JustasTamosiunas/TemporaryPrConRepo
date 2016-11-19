@@ -47,6 +47,8 @@ namespace PresentConnection.MemoNerd.Domain
 
     public class Cart
     {
+        string cartName;
+        CardListType cartType;
         List<CardList> activeCardLists; // Can use multiple CardLists in one cart if required
         Section level1, level2, level3, level4, memorized;
     }
