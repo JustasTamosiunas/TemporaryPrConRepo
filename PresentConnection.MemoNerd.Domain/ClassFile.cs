@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PresentConnection.MemoNerd.Domain
 {
-    public class ClassFile
+    public class Card
     {
     }
 }
