@@ -29,7 +29,8 @@ namespace PresentConnection.MemoNerd.Domain
     {
         string username;
         string password; //hashed password
-        List<CardList> cardLists;
+        List<CardList> cardLists; //created or downloaded card lists
+        List<Cart> carts; //active carts
     }
 
     public class Section
