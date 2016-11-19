@@ -8,5 +8,12 @@ namespace PresentConnection.MemoNerd.Domain
 {
     public class Card
     {
+
+    }
+
+    public class Word
+    {
+        string word;
+        string language; //ISO codes
     }
 }
