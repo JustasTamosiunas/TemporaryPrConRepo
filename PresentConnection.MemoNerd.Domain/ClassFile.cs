@@ -21,8 +21,8 @@ namespace PresentConnection.MemoNerd.Domain
 
     public class CardList
     {
-        List<string> Category;
-        List<Card> Cards;
+        List<string> category;
+        List<Card> cards;
     }
 
     public class User
@@ -31,5 +31,11 @@ namespace PresentConnection.MemoNerd.Domain
         string password; //hashed password
         List<CardList> cardLists; //created or downloaded card lists
         List<Cart> carts; //active carts
+    }
+
+    public class Section
+    {
+        int size;
+        List<Card> cards; //current cards
     }
 }
