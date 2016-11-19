@@ -8,7 +8,7 @@ namespace PresentConnection.MemoNerd.Domain
 {
     public class Card
     {
-
+        Word frontSide, backSide;
     }
 
     public class Word
