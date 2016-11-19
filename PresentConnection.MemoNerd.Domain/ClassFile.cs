@@ -16,4 +16,11 @@ namespace PresentConnection.MemoNerd.Domain
         string word;
         string language; //ISO codes
     }
+
+    public class User
+    {
+        string username;
+        string password; //hashed password
+        List<CardList> cardLists;
+    }
 }
