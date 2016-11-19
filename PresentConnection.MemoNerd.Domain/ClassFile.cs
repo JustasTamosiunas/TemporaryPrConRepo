@@ -16,4 +16,11 @@ namespace PresentConnection.MemoNerd.Domain
         string word;
         string language; //ISO codes
     }
+
+    public class CardList 
+    {
+        List<string> Category;
+        List<Card> Cards;
+        
+    }
 }
